@@ -1,0 +1,11 @@
+[Gedit Plugin]
+Loader=python
+Module=pp_quickopen
+IAge=2
+Name=Power Project Quick Open
+Name[ru]=Power Project Quick Open
+Description=Quick open module
+Description[ru]=Модуль поиска файлов Power Project
+Authors=Aleksei Kvitinskii
+Copyright=Copyright @ 2011 Aleksei Kvitinskii
+Website=http://axy.name/

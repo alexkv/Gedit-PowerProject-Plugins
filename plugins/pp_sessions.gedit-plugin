@@ -1,0 +1,11 @@
+[Gedit Plugin]
+Loader=python
+Module=pp_sessions
+IAge=2
+Name=Power Project Sessions
+Name[ru]=Power Project Sessions
+Description=Sessions module
+Description[ru]=Горячие клавиши Power Project
+Authors=Aleksei Kvitinskii
+Copyright=Copyright @ 2011 Aleksei Kvitinskii
+Website=http://axy.name/
