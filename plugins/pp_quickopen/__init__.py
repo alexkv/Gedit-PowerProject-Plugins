@@ -30,6 +30,9 @@ class PowerProjectQuickOpenPlugin(gedit.Plugin):
 
 		self._popup_size = (680, 300)
 		self._helpers = {}
+	
+	def __del__(self):
+		Finder().close()
 
 	def activate(self, window):
 		debug.msg("PowerProjectQuickOpenPlugin activate %s" % str(window))
@@ -38,7 +41,6 @@ class PowerProjectQuickOpenPlugin(gedit.Plugin):
 	def deactivate(self, window):
 		self._helpers[window].deactivate()
 		del self._helpers[window]
-		Finder().close()
 
 	def update_ui(self, window):
 		self._helpers[window].update_ui()
